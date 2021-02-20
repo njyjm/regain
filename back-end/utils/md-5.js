@@ -1,9 +1,9 @@
 const crypto = require('crypto')
 
-const secert = require('../config/token-secret')
+const secret = require('../config/token-secret')
 
 const md5 = text=>{
-    return crypto.createHash('md5').update(secert).update(text).digest('hex')
+    return crypto.createHash('md5').update(secret).update(text).digest('hex')
 }
 
 
