@@ -6,10 +6,10 @@
 
 ```javascript
 const data = {
-    url:'database-host',  //host
-    port:'3306'
-    user:'database-user',  //user
-    pwd:'database-pwd',   //password
+    url:'database-host',   // host
+    port:'3306',           // port
+    user:'database-user',  // user
+    pwd:'database-pwd',    // password
     database:'database-database' //database
 
 }
