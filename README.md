@@ -25,9 +25,9 @@ module.exports =  data
 
 ## vue3 前端 /front-end
 ## 修改记录
-在 `/back-end` 目录下创建 `config` 文件夹，并添加`database.js`和`token-secret.js`,添加 `port:'3306'`
-在 `mysql` 中只需添加一个 `regaindb` 数据库，启动后端 `app.js`, `sequlize`组件可在数据库中创建两个表`user` 和 `list`
-更新`ant-design-vue`版本
+- 在 `/back-end` 目录下创建 `config` 文件夹，并添加`database.js`和`token-secret.js`,添加 `port:'3306'`
+- 在 `mysql` 中只需添加一个 `regaindb` 数据库，启动后端 `app.js`, `sequlize`组件可在数据库中创建两个表`user` 和 `list`
+- 更新`ant-design-vue`版本
 
 
 
